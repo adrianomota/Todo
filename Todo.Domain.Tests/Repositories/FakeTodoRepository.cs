@@ -3,18 +3,38 @@ using Todo.Domain.Repositories;
 namespace Todo.Domain.Tests.Repositories;
 public class FakeTodoRepository : ITodoRepository
 {
-    public async Task<TodoItem> Create(TodoItem todoItem)
-    {
-        return await Task.FromResult(new TodoItem("Task one", "current user name", DateTime.UtcNow.AddDays(1)));
-    }
-
-    public Task<TodoItem> GetById(Guid? id)
+    public Task<TodoItem> Create(TodoItem todo)
     {
         throw new NotImplementedException();
     }
 
-    public async Task<TodoItem> Update(TodoItem todoItem)
+    public Task<IEnumerable<TodoItem>> GetAll(string? user)
     {
-        return await Task.FromResult(new TodoItem("Task one updated", "current user name updated", DateTime.UtcNow.AddDays(-1)));
+        throw new NotImplementedException();
+    }
+
+    public Task<IEnumerable<TodoItem>> GetAllDone(string? user)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<IEnumerable<TodoItem>> GetAllUndone(string? user)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<TodoItem> GetById(Guid? id, string user)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<IEnumerable<TodoItem>> GetByPeriod(string? user, DateTime? date, bool? done)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<TodoItem> Update(TodoItem todo)
+    {
+        throw new NotImplementedException();
     }
 }

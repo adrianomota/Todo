@@ -39,7 +39,7 @@ public class TodoHandler : Notifiable,
                     false,"Ops, there's something wrong", command.Notifications
                 )
             );
-        var todoExists = await _repository.GetById(command.Id);
+        var todoExists = await _repository.GetById(command.Id, command.User);
         if(todoExists == null)
             return await Task.FromResult(
                 new GenericCommandResult(
@@ -61,7 +61,7 @@ public class TodoHandler : Notifiable,
                     false,"Ops, there's something wrong", command.Notifications
                 )
             );
-        var todoExists = await _repository.GetById(command.Id);
+        var todoExists = await _repository.GetById(command.Id, command.User);
         if(todoExists == null)
             return await Task.FromResult(
                 new GenericCommandResult(
@@ -83,7 +83,7 @@ public class TodoHandler : Notifiable,
                     false,"Ops, there's something wrong", command.Notifications
                 )
             );
-        var todoExists = await _repository.GetById(command.Id);
+        var todoExists = await _repository.GetById(command.Id, command.User);
         if(todoExists == null)
             return await Task.FromResult(
                 new GenericCommandResult(

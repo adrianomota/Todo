@@ -8,7 +8,7 @@ public class DataContext: DbContext
     :base(options)
     {        
     }
-    public DbSet<TodoItem>? Rodos { get; set; }
+    public DbSet<TodoItem>? Todos { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

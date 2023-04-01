@@ -52,6 +52,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "microsoft.entityframeworkcore.inmemory": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [

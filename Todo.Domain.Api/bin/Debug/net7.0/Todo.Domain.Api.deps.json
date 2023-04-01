@@ -11,7 +11,8 @@
           "Microsoft.AspNetCore.OpenApi": "7.0.4",
           "Swashbuckle.AspNetCore": "6.4.0",
           "Todo.Domain": "1.0.0",
-          "Todo.Domain.Infra": "1.0.0"
+          "Todo.Domain.Infra": "1.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "7.0.4"
         },
         "runtime": {
           "Todo.Domain.Api.dll": {}
