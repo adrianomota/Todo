@@ -17,7 +17,7 @@ public class DataContext: DbContext
         modelBuilder.Entity<TodoItem>().Property(x => x.User).HasMaxLength(120).HasColumnType("varchar(120)");
         modelBuilder.Entity<TodoItem>().Property(x => x.Title).HasMaxLength(160).HasColumnType("varchar(160)");
         modelBuilder.Entity<TodoItem>().Property(x => x.Done).HasColumnType("bit");
-        modelBuilder.Entity<TodoItem>().Property(x => x.StartDte);
+        modelBuilder.Entity<TodoItem>().Property(x => x.StartDate);
         modelBuilder.Entity<TodoItem>().Property(x => x.CreatedAt);
         modelBuilder.Entity<TodoItem>().Property(x => x.UpdatedAt);
         modelBuilder.Entity<TodoItem>().HasIndex(b => b.User);

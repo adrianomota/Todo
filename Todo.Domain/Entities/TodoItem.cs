@@ -6,14 +6,14 @@ public class TodoItem: Entity
     {
         Title = title;
         User = user;
-        StartDte = startDate;
+        StartDate = startDate;
         Done = false;
     }
     public string? Title { get; private set;}
     public bool? Done { get; private set; }
     public string? User { get; private set; }
-    public DateTime? StartDte { get; private set; }
+    public DateTime? StartDate { get; private set; }
     public void SetDone(bool? value) => Done = value;
     public void SetTitle(string? title) => Title = title;
-    public void SetStartDate(DateTime? startDate) => StartDte = startDate;
+    public void SetStartDate(DateTime? startDate) => StartDate = startDate;
 }
