@@ -13,3 +13,5 @@
 /home/adriano/dotnet/Todo/Todo.Domain.Infra/obj/Debug/net7.0/refint/Todo.Domain.Infra.dll
 /home/adriano/dotnet/Todo/Todo.Domain.Infra/obj/Debug/net7.0/Todo.Domain.Infra.pdb
 /home/adriano/dotnet/Todo/Todo.Domain.Infra/obj/Debug/net7.0/ref/Todo.Domain.Infra.dll
+/home/adriano/dotnet/Todo/Todo.Domain.Infra/bin/Debug/net7.0/Todo.Domain.Infra.runtimeconfig.json
+/home/adriano/dotnet/Todo/Todo.Domain.Infra/obj/Debug/net7.0/Todo.Domain.Infra.genruntimeconfig.cache

@@ -5,7 +5,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore.design" Version="7.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="microsoft.entityframeworkcore.inmemory" Version="7.0.4" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="7.0.4" />
   </ItemGroup>
 
   <PropertyGroup>
