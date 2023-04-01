@@ -90,8 +90,8 @@ public class TodoHandler : Notifiable,
                     false,"Ops, Todo item doesn't exists", command.Notifications
                 )
             );
-      
         todoExists.SetDone(false);
+        todoExists.SetUpdatedAt(DateTime.UtcNow);
         var todoCreated = await _repository.Update(todoExists);
         return new GenericCommandResult(true, "Task updated successfully", todoCreated);
     }

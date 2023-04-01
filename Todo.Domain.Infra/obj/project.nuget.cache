@@ -1,10 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "EBOtA6CPwFh0yRKTLHX9mzZ4V5GrQB0xQZlwmF3/VzKG0foMyIfrjEs/WVw8E08RR3T3/+qRI7+bAOqoxkVEqg==",
+  "dgSpecHash": "0NkPIaCNVm0HDfX3sl0FmwWuQ4ub/WdxyNszkpqgX59OTBr7nQ95D+BcDWuQmzrDyAi4Gh6HD4I4drbkeYUSSQ==",
   "success": true,
   "projectFilePath": "/home/adriano/dotnet/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj",
   "expectedPackageFiles": [
-    "/home/adriano/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512"
+    "/home/adriano/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.entityframeworkcore/7.0.4/microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.4/microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.4/microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.4/microsoft.entityframeworkcore.inmemory.7.0.4.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/home/adriano/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

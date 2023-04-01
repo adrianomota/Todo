@@ -8,7 +8,8 @@ public abstract class Entity : IEquatable<Entity>
     }
     public Guid? Id { get;}
     public DateTime? CreatedAt { get; }
-    public DateTime? UpdatedAt { get;  }
+    public DateTime? UpdatedAt { get; private set;}
 
     public bool Equals(Entity? other) => Id == other?.Id;
+    public void SetUpdatedAt(DateTime? date) => UpdatedAt = date;
 }
