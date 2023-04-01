@@ -1,0 +1,12 @@
+/home/adriano/dotnet/Todo/Todo.Domain/bin/Debug/net7.0/Todo.Domain.deps.json
+/home/adriano/dotnet/Todo/Todo.Domain/bin/Debug/net7.0/Todo.Domain.dll
+/home/adriano/dotnet/Todo/Todo.Domain/bin/Debug/net7.0/Todo.Domain.pdb
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/Todo.Domain.csproj.AssemblyReference.cache
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/Todo.Domain.AssemblyInfoInputs.cache
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/Todo.Domain.AssemblyInfo.cs
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/Todo.Domain.csproj.CoreCompileInputs.cache
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/Todo.Domain.dll
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/refint/Todo.Domain.dll
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/Todo.Domain.pdb
+/home/adriano/dotnet/Todo/Todo.Domain/obj/Debug/net7.0/ref/Todo.Domain.dll
