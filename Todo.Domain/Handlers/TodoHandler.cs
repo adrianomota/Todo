@@ -25,7 +25,7 @@ public class TodoHandler : Notifiable,
                 false,"Ops, there's something wrong", command.Notifications
             )
         );
-        var newTodo = new TodoItem(command.Title, command.User, DateTime.UtcNow.AddDays(2));
+        var newTodo = new TodoItem(command.Title, command.User, command.StartDate);
         var todoCreated = await _repository.Create(newTodo);
         return new GenericCommandResult(true, "Task created successfully", todoCreated);
     }

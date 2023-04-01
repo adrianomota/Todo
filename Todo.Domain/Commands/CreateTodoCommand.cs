@@ -12,8 +12,8 @@ public class CreateTodoCommand : Notifiable, ICommand
         StartDate = startDate;
     }
 
-    public string? Title { get; private set;}
-    public string? User { get; private set; }
+    public string? Title { get;  set;}
+    public string? User { get;  set; }
     public DateTime? StartDate { get; set; }
     public void Validate()
     {
