@@ -9,7 +9,7 @@ public class TodoHandler : Notifiable,
             IHandler<CreateTodoCommand>,
             IHandler<UpdateTodoCommand>,
             IHandler<MarkTodoAsDoneCommand>,
-            IHandler<MarkTodoAsUnDoneCommand>
+            IHandler<MarkTodoAsUndoneCommand>
 {
     private readonly ITodoRepository _repository;
     public TodoHandler(ITodoRepository repository)
@@ -74,7 +74,7 @@ public class TodoHandler : Notifiable,
         return new GenericCommandResult(true, "Task updated successfully", todoCreated);
     }
 
-    public async Task<ICommandResult> Handle(MarkTodoAsUnDoneCommand command)
+    public async Task<ICommandResult> Handle(MarkTodoAsUndoneCommand command)
     {
         command.Validate();
         if(command.Invalid)

@@ -53,6 +53,14 @@
               "target": "Package",
               "version": "[6.4.0, )"
             },
+            "microsoft.aspNetcore.authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "microsoft.aspNetcore.authentication.jwtbearer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "microsoft.entityframeworkcore.inmemory": {
               "target": "Package",
               "version": "[7.0.4, )"
