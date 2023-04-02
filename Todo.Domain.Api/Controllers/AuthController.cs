@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Todo.Domain.Api.Services;
 using Todo.Domain.Commands;
 using Todo.Domain.Commands.Generics;
-
 namespace Todo.Domain.Api.Controllers;
 
 [ApiController]
@@ -15,7 +14,6 @@ public class AuthController: ControllerBase
     [HttpPost]
     public async Task<IActionResult> Post([FromBody]TokenUserCommand command)
     {
-
          command.Validate();
          if(command.Invalid)
            return BadRequest(
