@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MJ7j7d99VRsQlJYy8xcABNs9PdUtVxCKDEYNrV2jQDQ6L6wSrsTDxq9sTz5LzL2nGhe0TSTiDPA2SIBuG8TtHw==",
+  "dgSpecHash": "Cp9iIDyv1c/Xx8K/kZm2qQZb7kb0VYzyOKe4NH0Cg1DLWunLv1MKMg997hx/raTjMYehMqKub7M1OXDpoJ1qrA==",
   "success": true,
   "projectFilePath": "/home/adriano/dotnet/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj",
   "expectedPackageFiles": [

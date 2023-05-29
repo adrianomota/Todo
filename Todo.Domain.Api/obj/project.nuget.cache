@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6hLuOVkue/0Uu8rgVzcQpduM0OuwyjHkenC0piEMpYH5zv2AYq1+FHW/SEVr98n1sJwkBjxGJz/McxHKpc5gxw==",
+  "dgSpecHash": "52UdKUhO45xnE23fd/pgbgQ6FJvQ5oxFGVetqczr12aUJw9pHM9drTt2PqZHpQE7K0DTN35SrD0EK24jg/hedw==",
   "success": true,
   "projectFilePath": "/home/adriano/dotnet/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj",
   "expectedPackageFiles": [

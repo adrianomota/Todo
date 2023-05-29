@@ -4411,6 +4411,7 @@
         "net7.0"
       ],
       "sources": {
+        "/home/adriano/.asdf/installs/dotnet-core/7.0.302/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4476,7 +4477,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/adriano/.asdf/installs/dotnet-core/7.0.202/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/adriano/.asdf/installs/dotnet-core/7.0.302/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qlino639HIDLY4bXyVX4Na+wbLlZCo7V6LKR9JXmJbjHuYF8wx7ahO/afuxSJKGkT+zHHi2sMyaSJDxrKZS69Q==",
+  "dgSpecHash": "LkMUqvc0x8AIUHMcDnoVISRbfwpKZx7kw0wFThOLz9OxV9ePy4vHKYpSgZruo2LX5tjj4OP2gCutFt62Uhjjkw==",
   "success": true,
   "projectFilePath": "/home/adriano/dotnet/Todo/Todo.Domain.Tests/Todo.Domain.Tests.csproj",
   "expectedPackageFiles": [

@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/adriano/.asdf/installs/dotnet-core/7.0.202/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/adriano/.asdf/installs/dotnet-core/7.0.302/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

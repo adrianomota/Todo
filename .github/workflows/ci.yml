@@ -1,0 +1,63 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-tests-deployment:
+    env:
+      CAMINHO_PROJETO_TESTES: ./TODO
+      CAMINHO_PROJETO_WEBAPP: ./TODO
+      NOME_WEBAPP_AZURE: todoapi
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Listar versões do .NET pré-instaladas
+        run: dotnet --list-sdks
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 7.0.302
+
+      - name: Build com o utilitario dotnet
+        run: dotnet build ${{ env.CAMINHO_PROJETO_WEBAPP }} --configuration Release
+
+      - name: Executar testes automatizados
+        run: dotnet test ${{ env.CAMINHO_PROJETO_TESTES }} --verbosity minimal
+
+      # - name: Publish com o utilitario dotnet
+      #   run: dotnet publish ${{ env.CAMINHO_PROJETO_WEBAPP }} -c Release -o app
+
+      # - name: Login no Azure
+      #   uses: Azure/login@v1.1
+      #   with:
+      #     creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # - name: Deployment no Azure App Service
+      #   uses: Azure/webapps-deploy@v2
+      #   with:
+      #     app-name: ${{ env.NOME_WEBAPP_AZURE }}
+      #     package: "./app"
+
+      # - name: Notificação de sucesso na execução
+      #   if: success()
+      #   shell: pwsh
+      #   run: |
+      #     $Execucao = '{ "workflow": "' + ${env:GITHUB_WORKFLOW} + '", "numExecucao": ' + ${env:GITHUB_RUN_NUMBER} + ' }'
+      #     Write-Host $Execucao
+      #     Invoke-RestMethod -Uri "${{ secrets.URL_LOGIC_APP_SUCESSO }}" -Method POST -ContentType "application/json" -Body $Execucao
+
+      # - name: Notificação de erro na execução
+      #   if: failure()
+      #   shell: pwsh
+      #   run: |
+      #     $Execucao = '{ "workflow": "' + ${env:GITHUB_WORKFLOW} + '", "numExecucao": ' + ${env:GITHUB_RUN_NUMBER} + ' }'
+      #     Write-Host $Execucao
+      #     Invoke-RestMethod -Uri "${{ secrets.URL_LOGIC_APP_FALHA }}" -Method POST -ContentType "application/json" -Body $Execucao
