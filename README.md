@@ -1,4 +1,4 @@
-![Todo](https://github.com/github/docs/actions/workflows/ci.yml/badge.svg)
+![Todo Service](https://github.com/adrianomota/todo/actions/workflows/ci.yml/badge.svg)
 
 # Todo
 
