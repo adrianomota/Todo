@@ -9,7 +9,7 @@ on:
 jobs:
   build-tests-deployment:
     env:
-      CAMINHO_PROJETO_TESTES: ./Todo.Domain.Tests/Todo.Domain.Tests.csproj
+      CAMINHO_PROJETO_TESTES: ./
       CAMINHO_PROJETO_WEBAPP: ./
       NOME_WEBAPP_AZURE: todoapi
 
